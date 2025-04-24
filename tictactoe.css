@@ -1,0 +1,91 @@
+/* .box{ */
+    /* display:flex;
+    flex-direction: row; */
+    /* new comment */
+    /* background-color:rgb(179, 68, 68);
+     padding-bottom:100px;
+    padding-left: 100px;
+    border-color: rgb(61, 81, 30);
+    border-width:2px;
+    border-style : solid ;
+    /* margin-left: 300px; */
+    /* width: 8px;
+    display:flex;
+    align-items:center;
+    justify-content:center; */ 
+    .box{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        background-color: lightgray;
+        cursor: pointer;
+        border: 2px solid black;
+    }
+    .box:hover {
+        background-color: lightgreen;
+    }
+
+/* } */
+
+/* .two{
+    
+    background-color:rgb(122, 47, 166);
+    
+}
+.three{
+    
+    background-color:rgb(0, 0, 0);
+       */
+
+/* } */
+.board{
+    display:grid;
+    grid-template-columns:repeat(3,100px);
+    grid-template-rows:repeat(3,100px);
+    gap:3px;
+}   
+.bigbox{
+    
+    display:flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    align-items:center;
+
+}
+
+.q{
+    /* align-items: center; */
+    
+    text-align:center;
+    /* margin-left: 180px; */
+}
+.box:hover {
+    background-color: green ;
+    border-color:red;
+}
+.two:hover {
+    background-color: green ;
+    border-color:red;
+}
+.three:hover {
+    background-color: green ;
+    border-color:red;
+}
+/* .resetbutton{
+  
+
+} */
+/* .Goose {
+    margin-left:50px;
+    width: 200px;
+    height: 200px;
+    margin-right:40px
+}
+
+.goose {s
+    width: 250px;
+    height: 250px;
+} */
