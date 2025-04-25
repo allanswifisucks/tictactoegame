@@ -23,9 +23,17 @@
         background-color: lightgray;
         cursor: pointer;
         border: 2px solid black;
+        color: black;
     }
     .box:hover {
         background-color: lightgreen;
+    }
+    .rb{
+        margin-left:130px;
+        
+    }
+    .resetbutton{
+        font-size: large;
     }
 
 /* } */
@@ -42,6 +50,7 @@
 
 /* } */
 .board{
+    color: white;
     display:grid;
     grid-template-columns:repeat(3,100px);
     grid-template-rows:repeat(3,100px);
@@ -58,7 +67,7 @@
 
 .q{
     /* align-items: center; */
-    
+    color: whitesmoke; 
     text-align:center;
     /* margin-left: 180px; */
 }
@@ -71,8 +80,25 @@
     border-color:red;
 }
 .three:hover {
-    background-color: green ;
+    background-color: rgb(0, 128, 47) ;
     border-color:red;
+}
+.hi{
+    font-size:large;
+    color: white;
+
+}
+
+.pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: medium;
+}
+.pr{
+    color: green;
 }
 /* .resetbutton{
   
