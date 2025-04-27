@@ -30,7 +30,10 @@
     }
     .rb{
         margin-left:130px;
-        
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; */
     }
     .resetbutton{
         font-size: large;
@@ -84,9 +87,15 @@
     border-color:red;
 }
 .hi{
-    font-size:large;
+    font-size:xx-large;
     color: white;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: medium;
+    
 }
 
 .pr{
